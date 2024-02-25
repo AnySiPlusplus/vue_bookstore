@@ -1,7 +1,7 @@
 <template>
   <header>
     <router-link to="/">
-        <div class="logo"></div>
+        <div class="logo">Logo</div>
     </router-link>
     <div class="buttons">
         <router-link to="/books">Books</router-link>
@@ -75,8 +75,5 @@
       padding: 12px 16px;
       text-decoration: none;
       display: block;
-  }
-  .logo {
-    background-image: url(../assets/logo.svg);
   }
 </style>
